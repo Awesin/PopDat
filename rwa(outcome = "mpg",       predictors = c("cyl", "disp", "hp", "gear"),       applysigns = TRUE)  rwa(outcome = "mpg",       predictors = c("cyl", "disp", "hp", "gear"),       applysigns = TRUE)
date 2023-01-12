@@ -1,0 +1,30 @@
+library(rwa)
+mtcars <- read.csv("https://raw.githubusercontent.com/Awesin/PopDat/main/Population.csv")
+mtcars %>%
+rwa(outcome = "mpg",
+predictors = c("white", "black", "asian", "american", "twentyfour", "fourtyfour", "sixtyfour", "eightyfour", "eightyfive", "protestant", "catholic", "jehovah", "orthodox", "mormon", "unaffiliated", "jewish"),
+applysigns = TRUE)
+ 
+ mtcars %>%
+  rwa(outcome = "mpg",
+      predictors = c("white", "black", "asian", "american", "twentyfour", "fourtyfour", "sixtyfour", "eightyfour", "eightyfive", "protestant", "catholic", "jehovah", "orthodox", "mormon", "unaffiliated", "jewish"),
+      applysigns = TRUE)
+      
+      
+      
+      
+      
+      https://raw.githubusercontent.com/Awesin/PopDat/main/Population.csv
+      
+      library(rwa)
+mtcars <- read.csv("https://raw.githubusercontent.com/Awesin/PopDat/main/Religion.csv")
+mtcars %>%
+rwa(outcome = "mpg",
+predictors = c("protestant", "catholic", "jehovah", "orthodox", "mormon", "unaffiliated", "jewish"),
+applysigns = TRUE)
+ 
+ mtcars %>%
+  rwa(outcome = "mpg",
+      predictors = c("protestant", "catholic", "jehovah", "orthodox", "mormon", "unaffiliated", "jewish"),
+      applysigns = TRUE)
+      
